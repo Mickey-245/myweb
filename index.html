@@ -1,7 +1,95 @@
-<html>
-  <body>
-    <h1>Your Name Here</h1>
-    <h2> Your student code here</h2>
-    <h2>พยายามแสดงภาษาไทย</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ร้านคอนเฟลก CMU</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffcc00;
+    }
+    header img {
+      width: 120px;
+    }
+    h1 {
+      margin-top: 10px;
+      font-size: 28px;
+    }
+    .tagline {
+      font-size: 18px;
+      color: #555;
+    }
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 30px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price {
+      font-size: 20px;
+      color: #e67e22;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffcc00;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ร้านคอนเฟลก">
+    <h1>ร้านคอนเฟลก CMU</h1>
+    <p class="tagline">กรอบ อร่อย หวานมัน พร้อมเสิร์ฟทุกเช้าสำหรับนักศึกษามช.</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="cornflake1.jpg" alt="คอนเฟลกสูตรคลาสสิก">
+      <h2>คอนเฟลกสูตรคลาสสิก</h2>
+      <p class="price">฿35</p>
+    </div>
+    <div class="product">
+      <img src="cornflake2.jpg" alt="คอนเฟลกช็อกโกแลต">
+      <h2>คอนเฟลกช็อกโกแลต</h2>
+      <p class="price">฿40</p>
+    </div>
+    <div class="product">
+      <img src="cornflake3.jpg" alt="คอนเฟลกธัญพืช">
+      <h2>คอนเฟลกธัญพืช</h2>
+      <p class="price">฿45</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 ร้านคอนเฟลก CMU | อร่อยทุกคำ เพื่อเช้าวันใหม่ของคุณ
+  </footer>
+
+</body>
 </html>
